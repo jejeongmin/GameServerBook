@@ -23,7 +23,7 @@
     <ProjectGuid>{35900CFD-43AC-4141-A3B7-D3549036A430}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>tcpserver</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -42,7 +42,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
@@ -163,9 +163,6 @@
     <ProjectReference Include="..\ImaysNet\ImaysNet.vcxproj">
       <Project>{491faa36-d2db-4772-ad85-7e0b0305f665}</Project>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
